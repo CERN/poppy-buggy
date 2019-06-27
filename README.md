@@ -1,4 +1,4 @@
-# poppy-buggy
+# Poppy Buggy
 
 Poppy Buggy is a **Poppy creature** combining a [Poppy Ergo Jr](https://github.com/poppy-project/poppy-ergo-jr) robotic arm, a two-wheeled chassis and batteries for autonomous operation.
 
