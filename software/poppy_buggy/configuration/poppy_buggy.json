@@ -26,83 +26,85 @@
     "wheels" : [
        "wl",
        "wr"
-    ]
-  },
-  "motors": {
-    "m1": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 1,
-      "angle_limit": [
-        -150.0,
-        150.0
-      ],
-      "orientation": "direct"
-    },
-    "m2": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 2,
-      "angle_limit": [
-        -90.0,
-        125.0
-      ],
-      "orientation": "indirect"
-    },
-    "m3": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 3,
-      "angle_limit": [
-        -90.0,
-        90.0
-      ],
-      "orientation": "indirect"
-    },
-    "m4": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 4,
-      "angle_limit": [
-        -150.0,
-        150.0
-      ],
-      "orientation": "direct"
-    },
-    "m5": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 5,
-      "angle_limit": [
-        -90.0,
-        90.0
-      ],
-      "orientation": "indirect"
-    },
-    "m6": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 6,
-      "angle_limit": [
-        -110.0,
-        90.0
-      ],
-      "orientation": "indirect"
-    },
-    "wl": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 7
-      ],
-      "orientation": "indirect"
-    },
-    "wr": {
-      "offset": 0.0,
-      "type": "XL-320",
-      "id": 8
-      ],
-      "orientation": "direct"
-    }
+	    ]
+	  },
+	  "motors": {
+	    "m1": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 1,
+	      "angle_limit": [
+		-150.0,
+		150.0
+	      ],
+	      "orientation": "direct"
+	    },
+	    "m2": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 2,
+	      "angle_limit": [
+		-90.0,
+		125.0
+	      ],
+	      "orientation": "indirect"
+	    },
+	    "m3": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 3,
+	      "angle_limit": [
+		-90.0,
+		90.0
+	      ],
+	      "orientation": "indirect"
+	    },
+	    "m4": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 4,
+	      "angle_limit": [
+		-150.0,
+		150.0
+	      ],
+	      "orientation": "direct"
+	    },
+	    "m5": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 5,
+	      "angle_limit": [
+		-90.0,
+		90.0
+	      ],
+	      "orientation": "indirect"
+	    },
+	    "m6": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 6,
+	      "angle_limit": [
+		-110.0,
+		90.0
+	      ],
+	      "orientation": "indirect"
+	    },
+	    "wl": {
+	      "offset": 0.0,
+	      "type": "XL-320",
+	      "id": 7,
+	      "angle_limit": [0,0],
+              "orientation": "indirect",
+              "wheel_mode": true
+            },
+            "wr": {
+              "offset": 0.0,
+              "type": "XL-320",
+              "id": 8,
+	      "angle_limit": [0,0],
+              "orientation": "direct",
+              "wheel_mode": true
+            }
   },
   "sensors": {
     "camera": {

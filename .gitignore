@@ -1,1 +1,4 @@
 hardware/parts/stl
+software/build/
+software/dist/
+software/*.egg-info/
